@@ -1,6 +1,19 @@
+.menu li
+{
+    display: inline;
+}
+
 .menu ul
 {
     list-style-type:none;
-    display: inline;
     text-align: center;
 }
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(55, 55, 131);
+    padding: 10px;
+    border-radius: 5px;
+}
+
