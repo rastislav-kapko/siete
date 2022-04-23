@@ -1,4 +1,5 @@
 .menu ul
 {
     list-style-type:none;
+    display: inline;
 }
