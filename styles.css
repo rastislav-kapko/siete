@@ -18,7 +18,8 @@ a {
 }
 
 .footer{
+    color: aliceblue;
     text-align: center;
     background-color: rgb(55, 55, 131);
-    padding: 10 0 10 0;
+    padding: 2px 0px 2px 0px;
 }
