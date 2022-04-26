@@ -85,12 +85,10 @@ a:hover{
 .kontakt{
   padding-top: 5px;
     font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
   .kontakt_udaje{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     gap: 0px;
     grid-auto-rows: minmax(60px, 200px);
@@ -99,7 +97,6 @@ a:hover{
 
   .kontakt_udaje ul{
     list-style-type: none;
-
   }
   
   .ku_vlavo{
@@ -141,3 +138,59 @@ a:hover{
     align-items: left;
   }
 
+
+  
+.wrapper_onas{    
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(150x, 200px);
+    row-gap: 25px;
+    align-items: center;
+    padding: 25px ;
+  }
+
+  .dievca{
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+  }
+
+
+
+  .a_onas{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+  }
+
+  .a_onas h1{
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .onas_nad{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
+  .b_onas{
+    padding: 25px 200px;
+    text-align: left;
+  }
+
+  .b_onas p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .b_onas h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+
+  .b_onas_oddelovac{
+    padding: 15px;
+  }

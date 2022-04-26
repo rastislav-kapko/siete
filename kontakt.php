@@ -49,9 +49,6 @@
 
 
 
-
-
-
         <br>
 
     <h1>Napíšte nám</h1>
@@ -76,7 +73,7 @@
 
                 <div>
                     <label for="stat">Stat:</label><br>
-                    <input type="text" name="stat" size="28" required="required" placeholder="Vaše stat"/>
+                    <input type="text" name="stat" size="28" required="required" placeholder="Váš štát"/>
                 </div>
 
                 <div>
