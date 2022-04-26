@@ -1,2 +1,2 @@
 # skola_webstranka
-git repozitár pre školský projekt pre predmety Počítačové siete
+git repozitár pre školský projekt pre predmet Počítačové siete
