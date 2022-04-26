@@ -3,28 +3,58 @@
 
 
 
-  <div class="kontakt">
+<h1 class="nadpis">Kontakt</h1>
+
+<div class="kontakt_udaje">
+    
+        <div class="ku_vlavo">
+            <p>Autorent a.s.</p>
+            <p>IČO: 43774444, OR SR BA I.,Vložka: 45651/B</p>
+            <p>IBAN: SK 14 1100 0000 0030 3030 0030</p>
+        </div>
+
+        <div class="ku_vpravo"> 
+            <ul>
+                <li><h3>Prevádzka Bratislava - centrála:</h3></li>
+                <li><h4>Adresa: </h4></li>
+                <li>Bajkalská 231</li>
+                <li>Bratislava 827 25</li>
+                <li>Slovenská republika</li>
+                <li>GPS: 49.153475; 19.147564</li>
+            </ul>
+        </div>
+
+        <div class="ku_vlavo2">
+    <h3>Kontaktné informácie a rezervácia:</h3>
+    <ul>
+        <li>Telefón (denne 8.00-18.00):</li>
+        <li>+ 421 988 888 888</li>
+        <li>+ 421 345 678 901</li>
+    </ul>
+        </div>
+
+        <div class="ku_vpravo2">
+    <ul>
+        <li><h3>Otváracie hodiny:</h3></li>
+        <li>Pracovné dni: od 8.00 - 18.00</li>
+        <li>Víkendy: od 10.00 - 18.00</li>
+        <li>V ostatných časoch po individuálnej dohode. </li>
+    </ul>
+        </div>
+</div>
 
 
-    <h1>Naša adresa</h1>
-    <p>V prípade, že máte záujem nás navštíviť <br>
-        a obzrieť si nami ponúkané automobily,
-        alebo <br>ak ste už pevne rozhodnutí využiť naše služby, 
-        neváhajte k nám zájsť, najdete nás na adrese:</p>
+<div class="kontakt_formular">
+<img src="sidlo.jpg" alt="sidlo firmy v google maps" width="650">
 
-    <div class="container">
-<div class="item" style="text-align: left;">Autobazár Auto s.r.o.</div>
-<div class="item-2" style="text-align: right;">Kontaktné informácie a rezervácia: </div>
-<div class="item-3" style="text-align: left;">IČO: 43794904, OR SR BA I.,Vložka: 48751/B</div>
-<div class="item-4" style="text-align: right;">Telefón (denne 8.00-18.00): </div>
-<div class="item-5" style="text-align: left;">IBAN: SK 14 1100 0000 0029 2584 0158 </div>
-<div class="item-6" style="text-align: right;">+ 421 945 888 888 </div>
 
-    </div>
+
+
+
 
         <br>
 
-    <h1>Kontaktujte nás</h1>
+    <h1>Napíšte nám</h1>
         
         <br>
 
@@ -58,11 +88,13 @@
                     <label for="sprava">Správa</label><br>
                     <textarea name="sprava" id="id_sprava" cols="25" rows="10" required="required" placeholder="Vaša správa pre nás"></textarea>
                 </div>
-
+                
                 <button type="submit">Subscribe</button>
+                
     </form>
 
 
+    </div>
 </div>
 
 <?php include 'footer.php';?>
