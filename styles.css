@@ -194,3 +194,12 @@ a:hover{
   .b_onas_oddelovac{
     padding: 15px;
   }
+
+  .tabulka{
+    margin: 15px auto 15px auto;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}

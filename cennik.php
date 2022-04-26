@@ -3,9 +3,11 @@
 
 
 
+<h1 class="center">Náš cenník prenájmu vozidiel</h1>
+
 <div class="tabulka_cennik" id="tabulka_cen">
 <?php
-echo "<table border='10' cellpadding='10' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='1000'>";
+echo "<table class='tabulka' border='10' cellpadding='10' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='1000'>";
 include ("config.php");   
 $var = mysqli_connect("$localhost","$user","$password","$db") or die ("connect error");
 $sql = "select id, znacka, nazov, vybava, cena_za_menej_ako_tyzden, cena_za_menej_ako_mesiac, cena_za_viac_ako_mesiac from cennik";
