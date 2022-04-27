@@ -55,7 +55,7 @@
         
         <br>
 
-    <form action="subscribe.php" method="post">
+    <form action="kontakt_formular.php" method="post">
                 <div>
                     <label for="meno">Meno:</label><br>
                     <input type="text" name="meno" size="28" required="required" placeholder="Vaše meno"/>
@@ -83,7 +83,7 @@
 
                 <div>
                     <label for="sprava">Správa</label><br>
-                    <textarea name="sprava" id="id_sprava" cols="25" rows="10" required="required" placeholder="Vaša správa pre nás"></textarea>
+                    <textarea name="sprava" id="id_sprava" cols="25" rows="10" required="required" placeholder="Text vašej správy"></textarea>
                 </div>
                 
                 <button type="submit">Subscribe</button>
