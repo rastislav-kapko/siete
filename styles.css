@@ -211,3 +211,68 @@ a:hover{
   margin-right: auto;
   width: 50%;
 }
+
+
+
+.foto{
+  max-width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.bmw{
+  height: 250px;
+  border-radius: 25px;
+}
+
+
+.wrapper {
+  padding-left: 150px;
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, 300px);
+  justify-items: center;
+  align-items: center;
+
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.three {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.for {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.five {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.six {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+
+.wrapper p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(0, 0, 102);
+}
+
+.wrapper h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 102);
+}
+

@@ -72,7 +72,7 @@
                 </div>
 
                 <div>
-                    <label for="stat">Stat:</label><br>
+                    <label for="stat">Štát:</label><br>
                     <input type="text" name="stat" size="28" required="required" placeholder="Váš štát"/>
                 </div>
 
@@ -86,7 +86,7 @@
                     <textarea name="sprava" id="id_sprava" cols="25" rows="10" required="required" placeholder="Text vašej správy"></textarea>
                 </div>
                 
-                <button type="submit">Subscribe</button>
+                <button type="submit">Odoslať</button>
                 
     </form>
 
