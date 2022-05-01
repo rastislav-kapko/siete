@@ -2,6 +2,7 @@
 <?php include 'header.php';?>
 
 
+<img class="auta" src="auta.jpg" alt="ukazka vozoveho parku">
 
 <h1 class="center">Náš cenník prenájmu vozidiel</h1>
 

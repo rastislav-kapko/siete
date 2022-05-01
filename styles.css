@@ -203,3 +203,11 @@ a:hover{
 .center{
     text-align: center;
 }
+
+
+.auta{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
